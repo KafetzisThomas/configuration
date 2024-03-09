@@ -1,0 +1,6 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.cursorBlinking": "smooth",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "GitHub Dark"
+}
