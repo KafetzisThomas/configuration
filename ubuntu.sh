@@ -24,3 +24,9 @@ gsettings set org.gnome.shell.extensions.ding show-home false
 
 # Enable dark mode
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
+
+# Include volumes and devices, network volumes, and trash to the dock
+gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts true
+
+# Exclude unmounted volumes from the dock
+gsettings set org.gnome.shell.extensions.dash-to-dock show-unmounted-volumes false
