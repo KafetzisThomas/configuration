@@ -18,3 +18,6 @@ echo "Dock position moved to the bottom."
 
 # Set the icon size of apps in the dock to 48
 gsettings set org.gnome.shell.extensions.dash-to-dock icon-size 48
+
+# Disable the appearance of the personal folder icon on the desktop
+gsettings set org.gnome.shell.extensions.ding show-home false
