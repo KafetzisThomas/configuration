@@ -21,3 +21,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock icon-size 48
 
 # Disable the appearance of the personal folder icon on the desktop
 gsettings set org.gnome.shell.extensions.ding show-home false
+
+# Enable dark mode
+gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
