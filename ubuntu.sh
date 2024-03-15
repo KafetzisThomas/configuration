@@ -11,3 +11,7 @@ echo "Desktop wallpaper set successfully."
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height true
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 echo "Auto-hide dock utility enabled."
+
+# Change the dock position to the bottom
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
+echo "Dock position moved to the bottom."
