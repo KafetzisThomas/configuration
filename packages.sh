@@ -29,6 +29,8 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt autoremove -y
 
+echo "Packages have been installed."
+
 # Git config name and email
 echo "Please enter your FULL NAME for Git configuration:"
 read git_user_name
@@ -38,6 +40,8 @@ read git_user_email
 
 git config --global user.name "$git_user_name"
 git config --global user.email "$git_user_email"
+
+echo "Git has been configured."
 
 # Update and refresh snap packages
 sudo snap refresh
@@ -64,6 +68,8 @@ done
 # Update and refresh snap packages again for safety measures
 sudo snap refresh
 
+echo "Applications have been installed."
+
 # Install Google Chrome for Ubuntu
 cd ~/Downloads
 echo "Installing Google Chrome"
@@ -82,6 +88,7 @@ sudo apt update && sudo apt install github-desktop
 # Change order of apps in the dock
 dock_order="['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'firefox_firefox.desktop', 'code_code.desktop', 'org.gnome.Terminal.desktop', 'snap-store_ubuntu-software.desktop', 'spotify_spotify.desktop', 'github-desktop.desktop', 'discord_discord.desktop']"
 gsettings set org.gnome.shell favorite-apps "$dock_order"
+echo "Order of apps in the dock changed."
 
 echo "Sign in to Google Chrome. Press enter to continue..."
 google-chrome
