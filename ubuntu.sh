@@ -15,3 +15,6 @@ echo "Auto-hide dock utility enabled."
 # Change the dock position to the bottom
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
 echo "Dock position moved to the bottom."
+
+# Set the icon size of apps in the dock to 48
+gsettings set org.gnome.shell.extensions.dash-to-dock icon-size 48
