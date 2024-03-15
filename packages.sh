@@ -11,6 +11,7 @@ packages=(
     "git"
     "tree"
     "sqlite3"
+    "python3-pip"
 )
 
 # Install each package using apt
