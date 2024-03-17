@@ -46,17 +46,30 @@ echo "Git has been configured."
 # Update and refresh snap packages
 sudo snap refresh
 
-# Applications to install using Snap
-apps=(
-    "firefox"
+# Applications with classic confinement to install using Snap
+apps_classic=(
     "code"
-    "spotify"
-    "discord"
-    "vlc"
     "pycharm-community"
 )
 
-# Install each application using Snap
+# Install applications with classic confinement using Snap
+for app in "${apps_classic[@]}"; do
+    if snap list | grep -q "^$app"; then
+        echo "$app is already installed. Skipping..."
+    else
+        echo "Installing $app..."
+        sudo snap install $app --classic
+    fi
+done
+
+# Applications without classic confinement to install using Snap
+apps=(
+    "spotify"
+    "discord"
+    "vlc"
+)
+
+# Install applications without classic confinement using Snap
 for app in "${apps[@]}"; do
     if snap list | grep -q "^$app"; then
         echo "$app is already installed. Skipping..."
