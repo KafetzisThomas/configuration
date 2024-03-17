@@ -53,6 +53,7 @@ apps=(
     "spotify"
     "discord"
     "vlc"
+    "pycharm-community"
 )
 
 # Install each application using Snap
@@ -86,7 +87,7 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-package
 sudo apt update && sudo apt install github-desktop
 
 # Change order of apps in the dock
-dock_order="['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'firefox_firefox.desktop', 'code_code.desktop', 'org.gnome.Terminal.desktop', 'snap-store_ubuntu-software.desktop', 'spotify_spotify.desktop', 'github-desktop.desktop', 'discord_discord.desktop']"
+dock_order="['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'firefox_firefox.desktop', 'code_code.desktop', 'org.gnome.Terminal.desktop', 'pycharm-community_pycharm-community.desktop', 'spotify_spotify.desktop', 'discord_discord.desktop', 'github-desktop.desktop', 'snap-store_ubuntu-software.desktop']"
 gsettings set org.gnome.shell favorite-apps "$dock_order"
 echo "Order of apps in the dock changed."
 
