@@ -67,6 +67,7 @@ apps=(
     "spotify"
     "discord"
     "vlc"
+    "gnome-boxes"
 )
 
 # Install applications without classic confinement using Snap
