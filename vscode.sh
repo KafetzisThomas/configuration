@@ -3,7 +3,7 @@
 # Visual Studio Code extensions to install
 extensions=(
     "ms-python.python"
-    "ms-python.pylint"
+    "ms-python.black-formatter"
     "ms-python.vscode-pylance"
     "ms-python.debugpy"
     "formulahendry.code-runner"
