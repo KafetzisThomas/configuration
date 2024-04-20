@@ -9,6 +9,7 @@ extensions=(
     "formulahendry.code-runner"
     "GitHub.github-vscode-theme"
     "ritwickdey.LiveServer"
+    "s-nlf-fh.glassit"
 )
 
 # Check and install each extension using the code command
