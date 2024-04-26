@@ -11,8 +11,6 @@
 #   sets up VS Code
 ########################################
 
-# Run the ubuntu script
-./ubuntu.sh
 
 # Run the packages script
 ./packages.sh
