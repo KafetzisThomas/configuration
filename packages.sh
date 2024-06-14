@@ -49,7 +49,6 @@ sudo snap refresh
 # Applications with classic confinement to install using Snap
 apps_classic=(
     "code"
-    "pycharm-community"
 )
 
 # Install applications with classic confinement using Snap
