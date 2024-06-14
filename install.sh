@@ -12,10 +12,12 @@
 ########################################
 
 
-# Run the packages script
-./packages.sh
+# Make scripts executable
+chmod +x packages.sh
+chmod +x vscode.sh
 
-# Run vs code script
+# Run scripts
+./packages.sh
 ./vscode.sh
 
 echo "Installation Complete!"
