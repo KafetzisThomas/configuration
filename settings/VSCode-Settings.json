@@ -2,6 +2,7 @@
     "window.titleBarStyle": "custom",
     "editor.cursorBlinking": "smooth",
     "workbench.startupEditor": "none",
-    "workbench.colorTheme": "GitHub Dark",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.CustomBrowser": "chrome"
 }
