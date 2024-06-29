@@ -3,6 +3,11 @@
     "editor.cursorBlinking": "smooth",
     "workbench.startupEditor": "none",
     "editor.formatOnSave": true,
+    "[html]": {
+        "editor.formatOnSave": false
+    },
     "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.CustomBrowser": "chrome"
+    "liveServer.settings.CustomBrowser": "chrome",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false
 }
