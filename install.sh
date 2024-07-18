@@ -6,9 +6,8 @@
 
 ########################################
 # This script:
-#   installs Linux [Ubuntu] Software
-#   installs Apt & Snap Packages (Apps)
-#   sets up VS Code
+#   installs apt packages
+#   sets up vs code
 ########################################
 
 

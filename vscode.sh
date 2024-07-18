@@ -21,7 +21,7 @@ done
 
 echo "Visual Studio Code extensions have been installed."
 
-# Target directory for VS Code user settings on Ubuntu
+# Target directory for VS Code user settings
 VSCODE_USER_SETTINGS_DIR="${HOME}/.config/Code/User/"
 
 # Check if VS Code settings directory exists
