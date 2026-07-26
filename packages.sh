@@ -25,6 +25,7 @@ sudo systemctl enable --now docker
 dnf_packages=(
     "gnome-tweaks"
     "gnome-extensions-app"
+    "gh"
     "code"
     "maven"
     "sqlitebrowser"
