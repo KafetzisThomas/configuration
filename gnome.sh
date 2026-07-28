@@ -1,26 +1,36 @@
 #!/bin/bash
 set -e
 
+echo "Setting up dark mode and walpaper..."
+
+WALLPAPER_PATH="$HOME/Downloads/configuration/assets/walpaper.jpg"
+
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.desktop.background picture-uri-dark "file://${WALLPAPER_PATH}"
+gsettings set org.gnome.desktop.background picture-uri "file://${WALLPAPER_PATH}"
+
 echo "Setting up GNOME extensions..."
 sudo dnf install -y pipx
 pipx install gnome-extensions-cli
 pipx ensurepath
 
+export PATH="$HOME/.local/bin:$PATH"
+
 
 echo "Installing Battery-Health-Charging..."
-$HOME/.local/bin/gext install Battery-Health-Charging@maniacx.github.com
+gext install Battery-Health-Charging@maniacx.github.com
 
 
 echo "Installing Vitals..."
-$HOME/.local/bin/gext install Vitals@CoreCoding.com
+gext install Vitals@CoreCoding.com
 
 
 echo "Installing Clipboard-Indicator..."
-$HOME/.local/bin/gext install clipboard-indicator@tudmotu.com
+gext install clipboard-indicator@tudmotu.com
 
 
 echo "Installing blur-my-shell..."
-$HOME/.local/bin/gext install blur-my-shell@aunetx
+gext install blur-my-shell@aunetx
 
 
 echo "==============================================="
