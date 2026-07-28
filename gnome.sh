@@ -15,6 +15,10 @@ echo "Installing Vitals..."
 $HOME/.local/bin/gext install Vitals@CoreCoding.com
 
 
+echo "Installing Clipboard-Indicator..."
+$HOME/.local/bin/gext install clipboard-indicator@tudmotu.com
+
+
 echo "Installing blur-my-shell..."
 $HOME/.local/bin/gext install blur-my-shell@aunetx
 
