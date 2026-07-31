@@ -71,6 +71,14 @@ echo "Sign in to Discord. Press enter to continue..."
 read -r
 
 
+echo "Sign in to Antigravity CLI. Press enter to continue..."
+read -r
+
+
+echo "Downloading GEMINI.md..."
+wget -P $HOME/.gemini/ https://raw.githubusercontent.com/KafetzisThomas/andrej-karpathy-skills/main/GEMINI.md
+
+
 echo "======================================="
 echo "=== Packages installed successfully ==="
 echo "======================================="
