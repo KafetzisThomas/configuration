@@ -29,10 +29,6 @@ echo "Installing Dash-to-Dock..."
 gext install dash-to-dock@micxgx.gmail.com
 
 
-echo "Installing Clipboard-Indicator..."
-gext install clipboard-indicator@tudmotu.com
-
-
 echo "Installing blur-my-shell..."
 gext install blur-my-shell@aunetx
 
