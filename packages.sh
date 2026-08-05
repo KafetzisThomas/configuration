@@ -24,7 +24,6 @@ sudo systemctl enable --now docker
 
 dnf_packages=(
     "gnome-tweaks"
-    "gnome-extensions-app"
     "gh"
     "code"
     "maven"
@@ -34,6 +33,7 @@ dnf_packages=(
 
 
 flatpak_packages=(
+    "com.mattjakeman.ExtensionManager"
     "io.dbeaver.DBeaverCommunity"
     "com.discordapp.Discord"
     "com.usebottles.bottles"
