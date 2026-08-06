@@ -2,6 +2,7 @@
 set -e
 
 bash packages.sh
+bash battery.sh
 bash gnome.sh
 bash git.sh
 
